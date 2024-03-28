@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+         form{
+            width: 30%;
+            /* text-align: center; */
+            padding-right: 5%;
+            padding-left: 35%;
+            
+         }
+         .txt
+         {
+            width: auto;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 10%;
+         }
+         .submit
+         {
+            background-size: auto;
+            border-style: groove;
+            /* border-radius: 50%; */
+            border-right-style: double;
+         }
+         .reset
+         {
+            background-size: auto;
+            border-style: groove;
+            /* border-radius: 50%; */
+            border-right-style: double;  
+         }
+         label
+         {
+            font-style:italic;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+         }
+    </style>
+</head>
+<body>
+    <form  target="_blank">
+        <fieldset >
+            <legend style="text-align: center;">FORM</legend>
+            
+        <label for="Firstname">First Name:</label>
+        <input type="text" name="Firstname" placeholder="enter name " class="txt" required><br>
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname" placeholder="enter last name " class="txt" required><br>
+
+        <label for="E-mail">E-mail:</label>
+        <input type="text" name="E-mail" placeholder="E-mail@gmail.com "  class="txt" required><br>
+
+        <label for="phone">phone:</label>
+        <input type="tel" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"  class="txt" ><br>
+
+        <label for="uploadfile"></label>
+        <input type="file" name="fileupload"  class="txt"><br>
+
+        <label for="Hobbies">Hobbies:</label>
+        <input list="Hobbies" name="Hobbies" id="hobbies"  class="txt">
+        <datalist id="Hobbies" >
+                <option value="writting" ></option>
+                <option value="reading"></option>
+                <option value="coding"></option>
+
+
+        </datalist><br>
+        <label for="birthdate">select birthdate</label>
+        <input type="date" name="birthdate" class="txt" ><br><br>
+        <input type="submit" name="submit" class="submit" >
+        <input type="reset" name="reset" class="reset">
+    </fieldset>
+    </form>
+    
+</body>
+</html>
