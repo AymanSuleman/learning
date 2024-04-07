@@ -18,13 +18,13 @@ div{
     
 } */
 
-.flex-container{
+.website{
 
      display: flex ;
      /* flex: 1; */
      /* width: 50px; */
-     background-color: rgb(59, 140, 183);
-     color: white;
+     background-color: rgb(232, 238, 242);
+     color: rgb(3, 2, 2);
      border-radius: 10px;
      
 
@@ -36,13 +36,150 @@ nav a
     list-style: none;
      height: 30px;
      margin: 20px;
-     padding: 10px;
-     font-size: larger;
+     padding: 5px;
+     font-size: large;
+     
+
      
 }
 nav a:hover
 {
-       background-color: bisque;
+       background-color: rgb(101, 117, 243);
        border-radius: 10px;
        
+}
+
+
+button{
+
+     border-radius: 30px;
+     height: 25px;
+     margin-top: 25px;
+     background-color: rgb(65, 65, 196);
+     color: white;
+     margin-left: 300px;
+}
+.centered
+{
+    color: white;
+    position: absolute;
+    left: 250px ;
+    top: 300px;
+    right: 150px;
+    font-size: xx-large;
+}
+img
+{
+    margin-bottom: -22.5px;
+}
+.img{    
+    margin-top: 20%;
+    float: left;
+    padding-left: 50px;
+}
+ 
+.sec
+{
+    background-color: #101522;
+    height: 950px;
+    width: 1193px;
+    margin-bottom: 10px;
+    margin-top: -25px;
+}
+article h3{
+    
+    color: #1169E2;
+    padding-left: 20px;
+    text-align: center;
+    font-size: large;
+
+}
+.art
+{
+    color: white;
+    padding-top: 15%;
+}
+.art h1{
+    text-align: center;
+    padding-left: 10px;
+}
+.centered h1{
+    font-size: 70px;
+}
+
+.Determine h1{
+    font-size: 30px;
+}
+
+.Determine h3{
+    color: #1169E2;
+    padding-top: 60px;
+    padding-left: 79px;
+}
+b{
+    padding-left: 80px;
+    float: left;
+    color:black;
+    font-weight: bold;
+    font-size: larger;
+}
+.Determine 
+{ 
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+h4{
+    float: left;
+    padding-left: 80px;
+}
+
+.image-container
+{
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+}
+.image-container img
+{
+    align-items: flex-start;
+    display: inline-block;
+    margin-top: 220px;
+    width: 320px;
+    height: 375px;
+    border-radius: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 45px;
+    margin-right: 20px;
+
+   
+}
+footer{
+   
+    background-color: #1c263f;
+    height: 400px;
+    margin-top: 750px;
+    color: white;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.footer .column{
+    margin-left: 20px;
+    align-items: center;
+    /* width: 190px; */
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-right: 10px;
+    
+}
+div ul{
+    list-style:  none;
+}
+.column :hover{
+
+    border-bottom: 1px solid #1169E2;
 }
