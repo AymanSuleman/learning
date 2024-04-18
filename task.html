@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <script src="task.js"></script> -->
+
+</head>
+<body>
+    <form name="form" action="">
+        <div >
+        <h1>Welcome back</h1><br>
+           <button type="button"><i class="fa fa-google"></i>  Sign in with Google</button><br><br>
+          <h6 class="hr-line" style="text-align: left;"> Or , sign in with your Email</h6>
+
+          <input type="text" placeholder="Enter Email" class="txt" id="email"><br>
+
+          <input type="password" id="password" name="password" class="pass" placeholder="Enter password"><br>
+<br><br>
+          <input type="checkbox" name="chk" class="chk" >Keep me Signed in   
+          <a href="#" >Forget password</a>      
+         <br><br>
+          <button type="button" id="loginbutton" class="btn" >signin</button><br><br>
+          <a href="#" class="a1">Sign in with SAML SSO</a>  
+
+
+        </div>
+    </form>
+</body>
+</html>
+<script>
+   document
+   .getElementById("loginbutton")
+   .addEventListener("click", function (event){
+
+    let email= document.getElementById("email").value;
+    let password =document.getElementById("password").value;
+
+    let emailpattern =  /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    let passwordpattern = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
+
+    if (!emailpattern.test(email)) 
+    {
+         alert("Email pattern is wrong");
+         event.preventDefault();    
+    } 
+    else if (!passwordpattern.test(password)) 
+    {
+        alert("Passsord must be 8 characters ");
+        event.preventDefault();
+        
+    }
+});
+</script>

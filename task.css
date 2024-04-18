@@ -1,0 +1,101 @@
+form{
+    background-image: url("image/Premium Photo _ Copy-space flowers for wedding.jpeg ");
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: right;
+    border: 1px   solid white;
+    width: 800px;
+    align-items: center;
+    margin-left:  20% ;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px ;
+    height: 500px;
+}
+
+h1{
+    margin-left: 80px;
+}
+button
+{
+    background-color: white;
+    width: 220px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-left: 80px;
+    padding: 10px;
+    border-bottom: 1px;
+    border-color: white;
+    box-shadow: 2px 2px 3px black;
+}
+.txt
+{
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 35%;
+    height: 30px;
+    border-radius: 10px;
+    border-color: rgb(232, 221, 221) ;
+    background-color: rgb(232, 221, 221);
+}
+.pass
+{
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 35%;
+    height: 30px;
+    border-radius: 10px;
+    border-color: rgb(232, 221, 221) ;
+    background-color: rgb(232, 221, 221);
+    
+}
+.chk{
+    
+  margin-left: 60px;
+}
+.btn
+{
+    font-weight: bolder;
+    background-color:rgb(6, 246, 42);
+    width: 220px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-left: 80px;
+    padding: 10px;
+    border-bottom: 1px;
+    border-color:rgb(6, 246, 42) ;
+    box-shadow: 2px 2px 3px black;
+}
+a
+{
+    float: right;
+    margin-right: 57%;
+    color: black;
+}
+.hr-line
+{
+    margin-left: 120px;
+}
+.hr-line::before{
+    content: "";
+    width: 60px ;
+    display: block;
+    height: 1px ;
+    position: absolute ;
+    background: black;
+    left: 25%;
+    top: 38.8%;
+}
+.hr-line::after{
+    content: "";
+    width: 60px ;
+    display: block;
+    height: 1px ;
+    position: absolute ;
+    background: black;
+    left: 40.8%;
+    top: 38.8%;
+}
+.a1{
+    margin-right: 66%;     
+}
